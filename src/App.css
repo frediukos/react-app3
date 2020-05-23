@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.header img {
+  float: left;
+  margin: 0 23px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 20px 20px ;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header ul li {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+}

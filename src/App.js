@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header";
+import Body from "./components/Body";
 
 function App() {
+
+  const menu = ['About', 'Video', 'Pictures', 'Shop', 'Contacts'];
+
+  const bodyText = (text) => {
+    console.log(text);
+  };
+
+  const pressOnLogo = () => {
+    console.log("You've pressed on logo");
+  };
+
+  const pressBtn = (btn) => {
+    console.log(`You've pressed on ${btn} item`);
+  };
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header menu={menu} pressLogo={pressOnLogo} pressBtn={pressBtn} />
+      <Body bodyText={bodyText}/>
     </div>
   );
 }
