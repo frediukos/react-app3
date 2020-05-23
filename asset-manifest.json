@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-app3/static/css/main.8bc69b89.chunk.css",
+    "main.js": "/react-app3/static/js/main.2fe7c926.chunk.js",
+    "main.js.map": "/react-app3/static/js/main.2fe7c926.chunk.js.map",
+    "runtime-main.js": "/react-app3/static/js/runtime-main.49b81f11.js",
+    "runtime-main.js.map": "/react-app3/static/js/runtime-main.49b81f11.js.map",
+    "static/js/2.dc9b9f87.chunk.js": "/react-app3/static/js/2.dc9b9f87.chunk.js",
+    "static/js/2.dc9b9f87.chunk.js.map": "/react-app3/static/js/2.dc9b9f87.chunk.js.map",
+    "index.html": "/react-app3/index.html",
+    "precache-manifest.5ddb7909c359a7d76aca36bc7d0c099b.js": "/react-app3/precache-manifest.5ddb7909c359a7d76aca36bc7d0c099b.js",
+    "service-worker.js": "/react-app3/service-worker.js",
+    "static/css/main.8bc69b89.chunk.css.map": "/react-app3/static/css/main.8bc69b89.chunk.css.map",
+    "static/js/2.dc9b9f87.chunk.js.LICENSE.txt": "/react-app3/static/js/2.dc9b9f87.chunk.js.LICENSE.txt",
+    "static/media/logo_alex_circle2.png": "/react-app3/static/media/logo_alex_circle2.8248b08a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49b81f11.js",
+    "static/js/2.dc9b9f87.chunk.js",
+    "static/css/main.8bc69b89.chunk.css",
+    "static/js/main.2fe7c926.chunk.js"
+  ]
+}
